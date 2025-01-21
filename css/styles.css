@@ -173,6 +173,15 @@ img {
 
 .main {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
 }
 
 .main-button {
@@ -218,9 +227,22 @@ img {
 .benefits-item {
   width: calc((100% - 72px) / 4);
   align-items: flex-start;
+
 }
 
 .card-title-benefits {
+  margin-bottom: 8px;
+}
+
+.benefits-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
   margin-bottom: 8px;
 }
 
@@ -317,7 +339,6 @@ img {
 
 .logo-newcolor {
   color: #f4f4fd;
-  
 }
 
 .footer-text {
